@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtDescription"
+        android:layout_marginTop="25dp"
+        android:hint="Nhập Category" />
+
+    <EditText
+        android:id="@+id/edtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtTitle"
+        android:layout_marginTop="29dp"
+        android:hint="Nhập Description" />
+
+    <TextView
+        android:id="@+id/textThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Cập nhật Module"
+        android:textColor="#F44336"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textThem"
+        android:hint="Nhập Title"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtCategory"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="29dp"
+        android:backgroundTint="#063EE6"
+        android:text="Cập nhật" />
+
+    <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtCategory"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="28dp"
+        android:layout_toEndOf="@+id/btnUpdate"
+        android:backgroundTint="#E60606"
+        android:text="Huỷ" />
+</RelativeLayout>

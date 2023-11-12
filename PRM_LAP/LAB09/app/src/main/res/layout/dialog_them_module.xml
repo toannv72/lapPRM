@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDescription"
+        android:layout_marginTop="25dp"
+        android:hint="Nhập Category" />
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTitle"
+        android:layout_marginTop="29dp"
+        android:hint="Nhập Description" />
+
+    <TextView
+        android:id="@+id/textThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Thêm Module"
+        android:textColor="#F44336"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textThem"
+        android:hint="Nhập Title"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnThem1"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editCategory"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#114DE4"
+        android:text="Thêm" />
+
+    <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editCategory"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/btnThem1"
+        android:backgroundTint="#E60606"
+        android:text="Huỷ" />
+</RelativeLayout>
